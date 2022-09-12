@@ -1,10 +1,13 @@
 header img{
   height: 80px;
 }
-body {
-  height: 125vh;
-  background-image:url('website.jpg')
-  background-size: cover;
-  font-family: sans-serif;
+main{color: white;
+}
 
+header {background-color: white;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+height: 80px;
 }
