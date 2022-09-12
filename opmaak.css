@@ -38,3 +38,4 @@ width: 100px;}
 li a:hover{
   background-color: bisque;
 }
+:active{background-color: bisque;}
