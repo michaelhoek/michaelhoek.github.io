@@ -35,3 +35,6 @@ header li a {
 }
 main img{height: 90px;
 width: 100px;}
+li a:hover{
+  background-color: bisque;
+}
