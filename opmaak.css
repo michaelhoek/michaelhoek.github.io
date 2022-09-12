@@ -3,6 +3,6 @@ header img{
 }
 body {
   height: 125vh;
-  background-image:url(binair.jpg)
-  
+  background-image:url('website.jpg')
+  background-size:cover 
 }
