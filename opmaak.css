@@ -40,3 +40,7 @@ width: 100px;}
   color: aquamarine;
   height: 80px;
 }
+:active{
+  color: blue;
+  height: 80px;
+}
