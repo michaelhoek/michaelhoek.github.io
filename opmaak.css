@@ -36,3 +36,8 @@ header li a {
 main img{height: 90px;
 width: 100px;}
 
+:active{
+  color:blue;
+  text-decoration: none;
+  
+}
