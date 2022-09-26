@@ -36,11 +36,11 @@ header li a {
 main img{height: 80px;
 width: 100px;}
 
-hover{
+a:hover{
   color: aquamarine;
   height: 80px;
 }
-active{
+a:active{
   color: blue;
   height: 80px;
 }
