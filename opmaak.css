@@ -44,3 +44,16 @@ a:active{
   color: blue;
   height: 80px;
 }
+
+ul {
+  border : 1px solid #555;
+}
+
+li {
+  text-align : center;
+  border-bottom : 1px solid #555;
+}
+
+li:last-child {
+  border-bottom : none;
+}
