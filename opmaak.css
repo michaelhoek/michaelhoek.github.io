@@ -36,3 +36,7 @@ header li a {
 main img{height: 80px;
 width: 100px;}
 
+:hover{
+  color: aquamarine;
+  height: 80px;
+}
