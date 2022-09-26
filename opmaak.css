@@ -43,5 +43,9 @@ a:hover{
 a:active{
   color: blue;
   height: 80px;
+  
 }
-
+:target{
+  color: blue;
+  height: 80px;
+}
