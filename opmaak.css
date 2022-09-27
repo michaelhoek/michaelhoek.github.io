@@ -45,7 +45,7 @@ a:active{
   height: 80px;
   
 }
-:target{
+a:target{
   color: blue;
   height: 80px;
 }
