@@ -44,3 +44,7 @@ li{
   float:left;
   border-right: 1px solid #bbb;
 }
+
+a:active{
+  color: blue;
+}
