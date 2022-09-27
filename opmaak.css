@@ -1,32 +1,41 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+header img {
+  height: 80px;
+  margin-left: 40px;
+}
+body {
+  height: 125vh;
+  background-image: url('ddd.png');
+  background-size: cover;
+  font-family: sans-serif;
+  margin-top: 80px;
+  padding: 30px;
 }
 
-li {
-  float: left;
-  border-right:1px solid #bbb;
-}
-
-li:last-child {
-  border-right: none;
-}
-
-li a {
-  display: block;
+main {
   color: white;
-  text-align: center;
-  padding: 14px 16px;
+}
+
+header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 25px 0 black;
+}
+
+header * {
+  display: inline;
+}
+
+header li {
+  margin: 20px;
+}
+
+header li a {
+  color: black;
   text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color: #111;
-}
-
-.active {
-  background-color: #04AA6D;
 }
