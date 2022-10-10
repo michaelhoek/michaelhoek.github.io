@@ -48,3 +48,7 @@ li{
 a:active{
   color: blue;
 }
+
+a:hover{
+  color:blue;
+}
