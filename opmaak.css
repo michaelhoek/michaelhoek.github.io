@@ -56,3 +56,7 @@ a:hover{
 .topnav a:hover {
   border-bottom: 3px solid red;
 }
+
+.topnav a.active {
+  border-bottom: 3px solid red;
+}
