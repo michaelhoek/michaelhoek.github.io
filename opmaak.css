@@ -3,7 +3,9 @@ body{
   background-size: cover;
   font-family: sans-serif;
 }
-
+p{
+  color: azure;
+}
 
 
 
