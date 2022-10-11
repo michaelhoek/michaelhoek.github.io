@@ -1,4 +1,8 @@
-
+body{
+  background-image: url(website.jpg);
+  background-size: cover;
+  font-family: sans-serif;
+}
 
 
 
