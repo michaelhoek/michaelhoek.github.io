@@ -4,7 +4,12 @@ body{
   font-family: sans-serif;
 }
 
-
+h1{
+  font-size: 11pt;
+}
+h2{
+  font-size: 11pt;
+}
 
 ul {
   list-style-type: none;
