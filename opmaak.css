@@ -6,30 +6,41 @@ body{
 /* dit is voot de achtergrond voor de website waarbij dit docment gekoppeld is, de background image url, zorgt ervoor dat de computer weet wellke afbeelding hij moet gebruiken
 de background size zorgt voor de grootte van het plaatje*/
 
-<style>
-.dropdown {
-  position: relative;
-  display: inline-block;
+h1{
+  font-size: 11pt;
+}
+h2{
+  font-size: 11pt;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
-  z-index: 1;
+p{
+  
 }
 
-.dropdown:hover .dropdown-content {
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
   display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
-</style>
 
-<div class="dropdown">
-  <span>Mouse over me</span>
-  <div class="dropdown-content">
-    <p>Hello World!</p>
-  </div>
-</div>
+li a:hover {
+  background-color: #111;
+}
+
+li a:active {
+  background-color: #04AA6D;
+}
