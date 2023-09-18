@@ -82,5 +82,5 @@ body {
 
 /* Display the dropdown content when hovering over the dropdown */
 .dropdown:hover .dropdown-content {
-  display: none;
+  display: grid;
 }
