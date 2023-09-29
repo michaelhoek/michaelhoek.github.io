@@ -17,130 +17,82 @@ body {
   background-color: #b6a6a6;
 }
 
-.hoverable{
-  display:inline-block;
-  backface-visibility: hidden;
-  vertical-align: middle;
-  position:relative;
-  box-shadow: 0 0 1px rgba(0,0,0,0);
-  transform: translateZ(0);
-  transition-duration: .3s;
-  transition-property:transform;
-}
-
-.hoverable:before{
-  position:absolute;
-  pointer-events: none;
-  z-index:-1;
-  content: '';
-  top: 100%;
-  left: 5%;
-  height:10px;
-  width:90%;
-  opacity:0;
-  background: -webkit-radial-gradient(center, ellipse, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 80%);
-  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 80%);
-  /* W3C */
-  transition-duration: 0.3s;
-  transition-property: transform, opacity;
-}
-
-.hoverable:hover, .hoverable:active, .hoverable:focus{
-  transform: translateY(-5px);
-}
-.hoverable:hover:before, .hoverable:active:before, .hoverable:focus:before{
-  opacity: 1;
-  transform: translateY(-5px);
+/* Style the navigation bar */
+.navbar {
+  background-color: #333;
+  overflow: hidden;
 }
 
 
-
-@keyframes bounce-animation {
-  16.65% {
-    -webkit-transform: translateY(8px);
-    transform: translateY(8px);
-  }
-
-  33.3% {
-    -webkit-transform: translateY(-6px);
-    transform: translateY(-6px);
-  }
-
-  49.95% {
-    -webkit-transform: translateY(4px);
-    transform: translateY(4px);
-  }
-
-  66.6% {
-    -webkit-transform: translateY(-2px);
-    transform: translateY(-2px);
-  }
-
-  83.25% {
-    -webkit-transform: translateY(1px);
-    transform: translateY(1px);
-  }
-
-  100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-}
-
-.bounce {
-  animation-name: bounce-animation;
-  animation-duration: 2s;
-}
-
-
-
-/*everything below here is just setting up the page, so dont worry about it */
-
-
-@media (min-width: 768px) {
-  .navbar{
-    text-align: center !important;
-    float: none;
-    display: inline-block;
-  }
-}
-
-body {
-  background-color: rgba(0,0,0,1);
-  font-weight:600;
-  text-align:center !important;
+/* Style the navigation links */
+.navbar a {
+  float: left;
+  font-size: 16px;
   color: white;
-}
-
-nav {
-  background: none !important;
-  text-transform:uppercase;
-  li {
-    margin-left: 3em;
-    margin-right: 3em;
-    a{
-      transition: .5s color ease-in-out;
-    }
-  }
-}
-
-.page-title {
-  opacity: .75 !important;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 
-.shadow__btn {
-  padding: 10px 20px;
+/* Style the dropdown */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+
+/* Style the dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
   border: none;
-  font-size: 17px;
-  color: #fff;
-  border-radius: 7px;
-  letter-spacing: 4px;
-  font-weight: 700;
-  text-transform: uppercase;
-  transition: 0.5s;
-  transition-property: box-shadow;
+  outline: none;
+  margin: 0;
 }
+
+
+/* Change background color on hover for both links and dropdown buttons */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+
+/* Style the dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+
+/* Style the dropdown links */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+/* Change background color on hover for dropdown links */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+
+/* Display the dropdown content when hovering over the dropdown */
+.dropdown:hover .dropdown-content {
+  display: grid;
+}
+
 
 .shadow__btn {
   background: rgb(0,140,255);
